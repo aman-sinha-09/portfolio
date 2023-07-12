@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website - John Doe</title>
+    <title>Portfolio Website - Aman Anand</title>
     <link rel="stylesheet" href="styles.css">
+
+    <script src="index.js"></script>
+    
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("ndfv1-Qmp0iqQJkTi");
+   })();
+</script>
+
 </head>
 <body>
     
@@ -16,7 +28,7 @@
                 
                 <div class="logo-container">
                     <img src="./images/userAsset/NavLogo.jpg" class="logo">
-                    <div class="logo-text">ohn Doe</div>
+                    <div class="logo-text">man Anand</div>
                 </div>
                 
                 <div class="nav-items">
@@ -29,10 +41,10 @@
 
             <div class="hero-section">
 
-                <div class="faded-text">John Doe</div>
+                <div class="faded-text">Aman Anand</div>
     
                 <div class="hero-section-left">
-                    <div class="hero-section-heading">Hi! John Doe</div>
+                    <div class="hero-section-heading">Hi! Aman Anand</div>
                     
                     <div class="hero-section-heading hero-section-sub-heading">
                         I am a <span class="role"></span>
@@ -43,7 +55,7 @@
                         learn about my journey as a software developer.
                     </div>
                     
-                    <div class="btn-pink" id="btn">Hire me</div>
+                    <div class="btn-pink" id="btn">Download CV</div>
     
                 </div>
     
@@ -267,31 +279,31 @@
                 <div class="formfield-container">
                   <input class="formfield" 
                   type="text" 
-                  name="name" 
-                  id="" 
+                  name="" 
+                  id="name" 
                   placeholder="Enter your name" />
 
                   <input class="formfield" 
                   type="email" 
-                  name="email" 
-                  id="" 
+                  name="" 
+                  id="email" 
                   placeholder="Enter your email address" />
 
                   <input class="formfield" 
                   type="text" 
-                  name="subject" 
-                  id="" 
+                  name="" 
+                  id="subject" 
                   placeholder="Enter your subject" />
 
-                  <textarea name="message" 
-                  id="" cols="30" rows="10" 
+                  <textarea name="" 
+                  id="message" cols="30" rows="10" 
                   class="formfield formfield-textarea"
                   placeholder="Enter your message"></textarea>
 
                 </div>
                 
                 <div>
-                  <button type="submit" class="btn-pink" id="submit-btn">
+                  <button onclick="sendMail()" class="btn-pink" id="submit-btn">
                     Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
                   </button>
                 </div>
@@ -307,7 +319,7 @@
         <footer>
           <div class="container">
             <div class="footer-wrapper">
-              <div class="footer-faded-text">John Doe</div>
+              <div class="footer-faded-text">Aman Anand</div>
 
               <div class="link-wrapper">
                 <div>
@@ -334,6 +346,7 @@
         </footer>
 
     </div>
+
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
   <script>
@@ -351,5 +364,6 @@
       backDelay: 1000,
     });
   </script>
+
 </body>
 </html>
