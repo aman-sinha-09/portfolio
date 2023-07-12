@@ -5,7 +5,7 @@ function sendMail() {
       subject: document.getElementById("subject").value,
       message: document.getElementById("message").value,
     };
-  
+  // console.log("aman");
     const serviceID = "service_9domt7l";
     const templateID = "template_vewb5tb";
   
