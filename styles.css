@@ -563,6 +563,11 @@ a{
   animation: blobAnimate 3s linear infinite;
 }
 
+#aman{
+  display:flex;
+  gap: 20px;
+}
+
 @keyframes blobAnimate {
   50%{
     top:54%;
