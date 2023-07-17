@@ -169,12 +169,22 @@ a{
     position:absolute;
   }
 
-  .user-image{
+  /* .user-image{
     padding:2.5rem;
     filter:grayscale(1);
     transition:all 1s;
     animation: scaleImage 5s linear infinite;
-  }
+  } */
+
+  #atul,
+model-viewer {
+    height: 400px;
+    width: 400px;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
 
   .user-image img{
     z-index:-9;
